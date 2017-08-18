@@ -50,6 +50,13 @@ a:hover, a:focus {
     background-color: #337AB7;
     color: #EEE;
     padding-top: 30px;
+    position: absolute;
+	bottom: 0;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 100%;
+
 }
 
 .foot-geo {
@@ -169,13 +176,37 @@ a:hover, a:focus {
 	}
 	
 
-    .card-block {
-    background: #ebebeb;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(214, 214, 214, 0.95) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.95)), color-stop(100%, rgba(214, 214, 214, 0.95)));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(214, 214, 214, 0.95) 100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(214, 214, 214, 0.95) 100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(214, 214, 214, 0.95) 100%);
-    background: linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(214, 214, 214, 0.95) 100%);
-    color: #333333;
+    =
+
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 40%;
+    }
+
+    #meuSlider {
+     	width: 780px; 
+     	height: 500px;
+    }
+    #meuCard{
+    	width: 300px;
+    	height: 520px;
+    }
 }
+#sliderhome{
+		width: 780px; 
+     	height: 500px;
+}
+#imgCaroseul{
+	width: 780px; 
+   	height: 500px;
+}
+#imgCaroseulCard{
+	width: 300px; 
+   	height: 500px;
+}
+
