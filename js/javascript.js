@@ -66,14 +66,7 @@ $(document).ready(function(){
         }
     );
 });
-$('.carousel').carousel({
-    interval: 3000
+$('.main-slider').carousel({
+    interval: hover
 })
 
-$(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pauseOnHover: true,
-    interval: 1000,
-  });
-    });

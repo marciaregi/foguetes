@@ -50,12 +50,7 @@ a:hover, a:focus {
     background-color: #337AB7;
     color: #EEE;
     padding-top: 30px;
-    position: absolute;
-	bottom: 0;
-	height: 35px;
-	line-height: 35px;
-	text-align: center;
-	width: 100%;
+
 
 }
 
@@ -176,37 +171,36 @@ a:hover, a:focus {
 	}
 	
 
-    =
 
-@media(min-width: 1024px) {
-    .div-img-carousel, .item.active {
-        overflow: hidden;
-        margin: 0 auto;
-    }
+	.carousel-inner>.item>img{
+	    width:70%;
+	}
+	.carousel-caption {
+	position: absolute;
+	width:30%;
+	bottom: 0;
+	top:0;
+	right: 0 !important;
+	left: initial;
+	padding: 15px;
+	background: #333333;
+	background: rgba(0, 0, 0, 0.75);
+	}
 
-    .carousel-inner {
-        width: 40%;
-    }
+	.carousel-indicators {
+	position: absolute;
+	bottom: 15px;
+	right: 120px;
+	left:initial;
+	z-index: 22;
+	margin: 0;
+	list-style: none;
+	width: 12%;
+	}
 
-    #meuSlider {
-     	width: 780px; 
-     	height: 500px;
-    }
-    #meuCard{
-    	width: 300px;
-    	height: 520px;
-    }
-}
-#sliderhome{
-		width: 780px; 
-     	height: 500px;
-}
-#imgCaroseul{
-	width: 780px; 
-   	height: 500px;
-}
-#imgCaroseulCard{
-	width: 300px; 
-   	height: 500px;
-}
-
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 40px;
+    height: 63px;
+    margin-top: -22px;
+    font-size: 40px;
+	}
