@@ -66,7 +66,11 @@ $(document).ready(function(){
         }
     );
 });
+
 $('.main-slider').carousel({
-    interval: hover
+    interval: 'hover'
+})
+$('.main-slider1').carousel({
+    interval: 'hover'
 })
 
