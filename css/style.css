@@ -1,8 +1,8 @@
 .logo{
-	   background-image: url(../images/foguete.jpg); 
-	   background-position:center; 
+	   background-image: url(../images/foguete.jpg);
+	   background-position:center;
 	   width: 100%;
-	   height: 400px; 
+	   height: 400px;
 	   background-repeat:no-repeat;
 	   background-attachment: fixed;
 	   background-position: center;
@@ -97,60 +97,60 @@ a:hover, a:focus {
     .footer-geo, .footer-info {
         text-align: center;
     }
-	.social { 
+	.social {
 		list-style-type:none;
-		margin-bottom:0px; 
-		float:left; 
-		padding:0px; 
+		margin-bottom:0px;
+		float:left;
+		padding:0px;
 		margin-left:0px;
 	}
 	.social li {
 		 float:left;
 	}
 	.social li a {
-		 padding:0 10px; 
-		 font-size:13px; 
-		 line-height:40px; 
+		 padding:0 10px;
+		 font-size:13px;
+		 line-height:40px;
 		 color:#FFF;
 	}
 
-	.rightc { 
+	.rightc {
 	    list-style-type:none;
-	    margin-bottom:0px; 
+	    margin-bottom:0px;
 	    float:right;
 	}
-	.rightc li { 
-		margin:0px 10px; 
-		font-size:13px; 
-		float:left; 
-		line-height:40px; 
+	.rightc li {
+		margin:0px 10px;
+		font-size:13px;
+		float:left;
+		line-height:40px;
 		color:#FFF;
 	}
-	.rightc li a {   
-		color:#FFF; 
+	.rightc li a {
+		color:#FFF;
 	}
 
-	.navbar-brand img { 
-		margin-top:0px; 
+	.navbar-brand img {
+		margin-top:0px;
 		margin-left:0px;
 	}
 	.navbar-brand {
 		padding:0px;
 	}
 
-	.header_image { 
-		margin-top:-70px; 
+	.header_image {
+		margin-top:-70px;
 		float:left;
 	}
 	.nav.navbar-nav.navbar-right span {
-		font-family: 'Open Sans', sans-serif; 
-		font-style:italic; 
-		font-weight:300; 
+		font-family: 'Open Sans', sans-serif;
+		font-style:italic;
+		font-weight:300;
 		color:#1b6977;
 	}
 	.navbar-right li a {
-		font-family: 'Open Sans', sans-serif; 
-		font-size:16px; 
+		font-family: 'Open Sans', sans-serif;
+		font-size:16px;
 		color:#1b6977 !important;
 	}
 
@@ -167,13 +167,13 @@ a:hover, a:focus {
 		a.list-group-item.active small {
 	    color:#fff;
 	}
-	
 
 
-	.carousel-inner>.item>img{
+
+	/*.carousel-inner>.item>img{
 	    width:70%;
-	}
-	#caption {
+	}*/
+	/*#caption {
 	position: absolute;
 	width:30%;
 	bottom: 0;
@@ -183,9 +183,9 @@ a:hover, a:focus {
 	padding: 15px;
 	background: #333333;
 	background: rgba(0, 0, 0, 0.75);
-	}
+	}*/
 
-	#indicadorSlide{
+	/*#indicadorSlide{
 	position: absolute;
 	bottom: 15px;
 	right: 120px;
@@ -194,7 +194,7 @@ a:hover, a:focus {
 	margin: 0;
 	list-style: none;
 	width: 12%;
-	}
+	}*/
 
 	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
     width: 40px;
@@ -202,4 +202,52 @@ a:hover, a:focus {
     margin-top: -22px;
     font-size: 40px;
 	}
-	
+.carousel-indicators-container{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -45px;
+	margin: 0px 15px;
+	z-index: 15;
+	width: calc(100% - 30px);
+	text-align: center;
+	list-style: none;
+	height: 45px;
+}
+.carousel-control-box{
+	opacity: 1;
+	background-image: none;
+	width: 50%;
+	height: 100%;
+	background: magenta;
+}
+.card{
+	padding: 15px;
+	background: #333333;
+	background: rgba(0, 0, 0, 0.75);
+}
+.img-container{
+	padding: 0;
+}
+.slide-image{
+	width: 100%;
+	padding: 0;
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (min-width: 992px) {
+	.carousel-indicators-container{
+		margin-left: 66.66666667%;
+		width: calc(33.33333333% - 10px);
+		left: -5px;
+		bottom: 0;
+	}
+	.card{
+		height: 500px;
+	}
+	.slide-image{
+		height: 500px;
+	}
+}
